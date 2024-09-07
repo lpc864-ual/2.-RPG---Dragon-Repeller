@@ -1,0 +1,55 @@
+body {
+  background-image: url("resources/background.jpg");
+  background-size: cover;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  /* color: white; */
+  margin: 275px auto; 
+  padding: 10px;
+  /* background-clip: content-box; */
+}
+
+#stats {
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: black;
+  /* border: 1px black solid; */
+  color: black;
+  padding: 5px;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+#monsterStats {
+  display: none; 
+  background-color: red;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+}
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}
